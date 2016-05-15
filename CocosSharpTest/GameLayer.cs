@@ -17,7 +17,7 @@ using System;
 using System.Collections.Generic;
 using CocosSharp;
 
-namespace CocosSharpTest
+namespace FruityFalls
 {
     public class GameLayer : CCLayerColor
     {

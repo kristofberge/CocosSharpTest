@@ -13,20 +13,17 @@
 //   Defines the CocosSharpTest type.
 // </summary>
 //  --------------------------------------------------------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
 using Xamarin.Forms;
-using CocosSharp;
-using CocosSharpTest.Pages;
+using FruityFalls.Pages;
 
-namespace CocosSharpTest
+namespace FruityFalls
 {
     public class App : Application
     {
         public App()
         {
             // The root page of your application
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new TitlePage());
         }
 
         protected override void OnStart()

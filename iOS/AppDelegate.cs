@@ -20,7 +20,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace CocosSharpTest.iOS
+namespace FruityFalls
 {
     [Register("AppDelegate")]
     public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate

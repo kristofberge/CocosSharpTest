@@ -16,7 +16,7 @@
 using System;
 using CocosSharp;
 
-namespace CocosSharpTest
+namespace FruityFalls
 {
     public class GameScene : CCScene
     {

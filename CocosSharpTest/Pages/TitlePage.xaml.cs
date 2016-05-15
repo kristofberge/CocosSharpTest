@@ -1,5 +1,5 @@
 ﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="Main.cs" company="ArcTouch, Inc.">
+// <copyright file="TitlePage.xaml.cs" company="ArcTouch, Inc.">
 //   All rights reserved.
 //
 //   This file, its contents, concepts, methods, behavior, and operation
@@ -10,26 +10,21 @@
 //   the license agreement.
 // </copyright>
 // <summary>
-//   Defines the Main type.
+//   Defines the TitlePage.xaml type.
 // </summary>
 //  --------------------------------------------------------------------------------------------------------------------
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
-using Foundation;
-using UIKit;
+using Xamarin.Forms;
 
-namespace FruityFalls
+namespace FruityFalls.Pages
 {
-    public class Application
+    public partial class TitlePage : ContentPage
     {
-        // This is the main entry point of the application.
-        static void Main(string[] args)
+        public TitlePage()
         {
-            // if you want to use a different Application Delegate class from "AppDelegate"
-            // you can specify it here.
-            UIApplication.Main(args, null, "AppDelegate");
+            InitializeComponent();
         }
     }
 }

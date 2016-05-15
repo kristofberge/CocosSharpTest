@@ -18,7 +18,7 @@ using System.Collections.Generic;
 using Xamarin.Forms;
 using CocosSharp;
 
-namespace CocosSharpTest
+namespace FruityFalls
 {
 	public class GamePage : ContentPage
 	{
