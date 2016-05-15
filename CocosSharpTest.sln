@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosSharpTest", "CocosSharpTest\CocosSharpTest.csproj", "{11B6C145-AC56-4048-8043-A92CF84F9F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosSharpTest.iOS", "iOS\CocosSharpTest.iOS.csproj", "{84438509-CC5A-4D49-A037-C9284D1E0436}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosSharpTest.Droid", "Droid\CocosSharpTest.Droid.csproj", "{BA8FA1F5-8575-4505-A9F0-159C017DBD5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11B6C145-AC56-4048-8043-A92CF84F9F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11B6C145-AC56-4048-8043-A92CF84F9F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11B6C145-AC56-4048-8043-A92CF84F9F2C}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{11B6C145-AC56-4048-8043-A92CF84F9F2C}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{11B6C145-AC56-4048-8043-A92CF84F9F2C}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{11B6C145-AC56-4048-8043-A92CF84F9F2C}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{11B6C145-AC56-4048-8043-A92CF84F9F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11B6C145-AC56-4048-8043-A92CF84F9F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11B6C145-AC56-4048-8043-A92CF84F9F2C}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{11B6C145-AC56-4048-8043-A92CF84F9F2C}.Release|iPhone.Build.0 = Release|Any CPU
+		{11B6C145-AC56-4048-8043-A92CF84F9F2C}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{11B6C145-AC56-4048-8043-A92CF84F9F2C}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{84438509-CC5A-4D49-A037-C9284D1E0436}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{84438509-CC5A-4D49-A037-C9284D1E0436}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{84438509-CC5A-4D49-A037-C9284D1E0436}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{84438509-CC5A-4D49-A037-C9284D1E0436}.Debug|iPhone.Build.0 = Debug|iPhone
+		{84438509-CC5A-4D49-A037-C9284D1E0436}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{84438509-CC5A-4D49-A037-C9284D1E0436}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{84438509-CC5A-4D49-A037-C9284D1E0436}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{84438509-CC5A-4D49-A037-C9284D1E0436}.Release|Any CPU.Build.0 = Release|iPhone
+		{84438509-CC5A-4D49-A037-C9284D1E0436}.Release|iPhone.ActiveCfg = Release|iPhone
+		{84438509-CC5A-4D49-A037-C9284D1E0436}.Release|iPhone.Build.0 = Release|iPhone
+		{84438509-CC5A-4D49-A037-C9284D1E0436}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{84438509-CC5A-4D49-A037-C9284D1E0436}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{BA8FA1F5-8575-4505-A9F0-159C017DBD5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8FA1F5-8575-4505-A9F0-159C017DBD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8FA1F5-8575-4505-A9F0-159C017DBD5C}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{BA8FA1F5-8575-4505-A9F0-159C017DBD5C}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{BA8FA1F5-8575-4505-A9F0-159C017DBD5C}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{BA8FA1F5-8575-4505-A9F0-159C017DBD5C}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{BA8FA1F5-8575-4505-A9F0-159C017DBD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8FA1F5-8575-4505-A9F0-159C017DBD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8FA1F5-8575-4505-A9F0-159C017DBD5C}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{BA8FA1F5-8575-4505-A9F0-159C017DBD5C}.Release|iPhone.Build.0 = Release|Any CPU
+		{BA8FA1F5-8575-4505-A9F0-159C017DBD5C}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{BA8FA1F5-8575-4505-A9F0-159C017DBD5C}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 140
+		$1.inheritsSet = VisualStudio
+		$1.inheritsScope = text/plain
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.IndentSwitchBody = True
+		$2.IndentBlocksInsideExpressions = True
+		$2.PropertyGetBraceStyle = NextLine
+		$2.PropertySetBraceStyle = NextLine
+		$2.EventAddBraceStyle = NextLine
+		$2.EventRemoveBraceStyle = NextLine
+		$2.StatementBraceStyle = NextLine
+		$2.ElseNewLinePlacement = NewLine
+		$2.CatchNewLinePlacement = NewLine
+		$2.FinallyNewLinePlacement = NewLine
+		$2.ArrayInitializerWrapping = DoNotWrap
+		$2.BeforeMethodDeclarationParentheses = False
+		$2.BeforeMethodCallParentheses = False
+		$2.BeforeConstructorDeclarationParentheses = False
+		$2.NewLineBeforeConstructorInitializerColon = SameLine
+		$2.NewLineAfterConstructorInitializerColon = SameLine
+		$2.BeforeIndexerDeclarationBracket = False
+		$2.BeforeDelegateDeclarationParentheses = False
+		$2.AfterDelegateDeclarationParameterComma = True
+		$2.NewParentheses = False
+		$2.SpacesBeforeBrackets = False
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 140
+		$3.inheritsSet = VisualStudio
+		$3.inheritsScope = text/plain
+		$3.scope = application/xaml+xml
+		$0.XmlFormattingPolicy = $4
+		$4.inheritsSet = null
+		$4.scope = application/xaml+xml
+	EndGlobalSection
+EndGlobal
