@@ -18,13 +18,13 @@ using System;
 using Xamarin.Forms;
 using CocosSharp;
 
-namespace CocosSharpTest.Pages
+namespace FruityFalls.Pages
 {
-    public partial class MainPage : ContentPage
+    public partial class GamePage : ContentPage
     {
         GameScene gameScene;
 
-        public MainPage()
+        public GamePage()
         {
             InitializeComponent();
 
@@ -34,7 +34,10 @@ namespace CocosSharpTest.Pages
                     VerticalOptions = LayoutOptions.FillAndExpand,
                     ViewCreated = HandleViewCreated
                 };
-            this.grid.Children.Add(ccSharpView, 0, 0);
+            AbsoluteLayout.SetLayoutBounds(ccSharpView, new Rectangle(0, 0, 1, 1));
+            AbsoluteLayout.SetLayoutFlags(ccSharpView, AbsoluteLayoutFlags.All);
+
+            outerLayout.Children.Add(ccSharpView);
         }
 
         private void HandleViewCreated(object sender, EventArgs e)

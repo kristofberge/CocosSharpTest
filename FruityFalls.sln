@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosSharpTest", "CocosSharpTest\CocosSharpTest.csproj", "{11B6C145-AC56-4048-8043-A92CF84F9F2C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruityFalls", "CocosSharpTest\FruityFalls.csproj", "{11B6C145-AC56-4048-8043-A92CF84F9F2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosSharpTest.iOS", "iOS\CocosSharpTest.iOS.csproj", "{84438509-CC5A-4D49-A037-C9284D1E0436}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruityFalls.iOS", "iOS\FruityFalls.iOS.csproj", "{84438509-CC5A-4D49-A037-C9284D1E0436}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CocosSharpTest.Droid", "Droid\CocosSharpTest.Droid.csproj", "{BA8FA1F5-8575-4505-A9F0-159C017DBD5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruityFalls.Droid", "Droid\FruityFalls.Droid.csproj", "{BA8FA1F5-8575-4505-A9F0-159C017DBD5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

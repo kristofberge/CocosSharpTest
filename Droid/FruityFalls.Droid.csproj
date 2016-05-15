@@ -90,9 +90,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CocosSharpTest\CocosSharpTest.csproj">
+    <ProjectReference Include="..\CocosSharpTest\FruityFalls.csproj">
       <Project>{11B6C145-AC56-4048-8043-A92CF84F9F2C}</Project>
-      <Name>CocosSharpTest</Name>
+      <Name>FruityFalls</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

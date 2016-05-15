@@ -11,7 +11,7 @@
 
 [assembly: Android.Runtime.ResourceDesignerAttribute("CocosSharpTest.Droid.Resource", IsApplication=true)]
 
-namespace CocosSharpTest.Droid
+namespace FruityFalls
 {
 	
 	
